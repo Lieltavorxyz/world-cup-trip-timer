@@ -64,6 +64,16 @@ h1 {
   letter-spacing: 0.05em;
 }
 
+.crew-message {
+  font-size: clamp(20px, 4vw, 28px);
+  font-weight: 700;
+  color: var(--accent);
+  letter-spacing: -0.01em;
+  min-height: 40px;
+  transition: opacity 0.4s ease;
+  margin-top: 8px;
+}
+
 /* Countdown */
 main {
   display: flex;
@@ -132,14 +142,23 @@ main {
 footer {
   border-top: 1px solid var(--border);
   padding-top: 32px;
-  color: var(--muted);
-  font-size: 15px;
-  letter-spacing: 0.03em;
-  min-height: 48px;
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
 }
 
-#crew-message {
+.liel-message {
+  font-size: 16px;
+  font-weight: 600;
+  color: var(--text);
+  min-height: 28px;
   transition: opacity 0.4s ease;
+}
+
+.footer-credit {
+  font-size: 13px;
+  color: var(--muted);
+  letter-spacing: 0.02em;
   font-style: italic;
 }
 
