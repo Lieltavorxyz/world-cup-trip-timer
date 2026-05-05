@@ -133,8 +133,14 @@ footer {
   border-top: 1px solid var(--border);
   padding-top: 32px;
   color: var(--muted);
-  font-size: 13px;
-  letter-spacing: 0.05em;
+  font-size: 15px;
+  letter-spacing: 0.03em;
+  min-height: 48px;
+}
+
+#crew-message {
+  transition: opacity 0.4s ease;
+  font-style: italic;
 }
 
 @media (max-width: 480px) {
